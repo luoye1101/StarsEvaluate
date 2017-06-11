@@ -13,6 +13,7 @@
 		67BA9BD91EECFC4400AD191C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BA9BD71EECFC4400AD191C /* Main.storyboard */; };
 		67BA9BDB1EECFC4400AD191C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BA9BDA1EECFC4400AD191C /* Assets.xcassets */; };
 		67BA9BDE1EECFC4400AD191C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BA9BDC1EECFC4400AD191C /* LaunchScreen.storyboard */; };
+		67BA9BE81EECFCB800AD191C /* QLStarsEvaluateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA9BE71EECFCB800AD191C /* QLStarsEvaluateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		67BA9BDA1EECFC4400AD191C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67BA9BDD1EECFC4400AD191C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67BA9BDF1EECFC4400AD191C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BA9BE61EECFCB800AD191C /* QLStarsEvaluateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLStarsEvaluateView.h; sourceTree = "<group>"; };
+		67BA9BE71EECFCB800AD191C /* QLStarsEvaluateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLStarsEvaluateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				67BA9BD21EECFC4400AD191C /* AppDelegate.m */,
 				67BA9BD41EECFC4400AD191C /* ViewController.h */,
 				67BA9BD51EECFC4400AD191C /* ViewController.m */,
+				67BA9BE51EECFCAA00AD191C /* QLStarsEvaluateView */,
 				67BA9BD71EECFC4400AD191C /* Main.storyboard */,
 				67BA9BDA1EECFC4400AD191C /* Assets.xcassets */,
 				67BA9BDC1EECFC4400AD191C /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				67BA9BCF1EECFC4400AD191C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67BA9BE51EECFCAA00AD191C /* QLStarsEvaluateView */ = {
+			isa = PBXGroup;
+			children = (
+				67BA9BE61EECFCB800AD191C /* QLStarsEvaluateView.h */,
+				67BA9BE71EECFCB800AD191C /* QLStarsEvaluateView.m */,
+			);
+			path = QLStarsEvaluateView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BA9BE81EECFCB800AD191C /* QLStarsEvaluateView.m in Sources */,
 				67BA9BD61EECFC4400AD191C /* ViewController.m in Sources */,
 				67BA9BD31EECFC4400AD191C /* AppDelegate.m in Sources */,
 				67BA9BD01EECFC4400AD191C /* main.m in Sources */,

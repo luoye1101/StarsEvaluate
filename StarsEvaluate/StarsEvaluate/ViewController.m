@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "QLStarsEvaluateView.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [self setupUI];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 设置UI界面
+- (void)setupUI {
+    
+    CGFloat width = 150;
+    QLStarsEvaluateView *starEvaluateView = [[QLStarsEvaluateView alloc] initWithFrame:CGRectMake((self.view.bounds.size.width - width) * 0.5, 100, width, 25)];
+    starEvaluateView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:starEvaluateView];
+    
+    starEvaluateView.starsButtonBlock = ^ (NSString *score){
+        
+        NSLog(@"score - %@", score);
+    };
 }
 
 
